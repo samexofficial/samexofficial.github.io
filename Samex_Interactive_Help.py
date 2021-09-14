@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 """
 Created on Mon Jul 26 21:23:02 2021
-
 @author: Sameer Achhab
 """
 print("Enter a command to learn more about it. Enter all to see all commands. ")
@@ -13,16 +12,15 @@ def help(command):
        print("4.restart")
        print("5.dir [path]")
        print("6.cd [path]")
-       print("7.files")
        print("8.exists")
        print("9.create")
        print("10.remove")
        print("11.rename")
-   if command=="files":
-       print("It will show all the files you have seen the content of or typed in it.")
+       print("download");
    if command=="shutdown":
        print("It closes the program.")
-       
+   if command=="download":
+      print("it will allow users to download files from the web.")
    if command=="create":
        print("It creates a file.")
    if command=="write":
