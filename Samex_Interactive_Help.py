@@ -16,7 +16,20 @@ def help(command):
        print("9.create")
        print("10.remove")
        print("11.rename")
-       print("download");
+       print("12.download");
+       print("13.change password")
+       print("14.history")
+       print("15.clear history")
+       print("16. set password")
+       print("27.remove password")
+   if command=="remove password":
+      print("Removes the current password.")
+   if command=="set password":
+      print("sets a password.")
+   if command=="history":
+      print("shows all the operations perfomed on files with samex.")
+   if command=="clear history":
+      print("clears history.")
    if command=="shutdown":
        print("It closes the program.")
    if command=="download":
