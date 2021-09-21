@@ -1,0 +1,15 @@
+set password
+change password
+write
+remove
+download
+exists
+content
+shutdown
+history
+clear history
+cd [path]
+dir [path]
+restart
+create
+rename
