@@ -20,8 +20,11 @@ def help(command):
        print("13.change password")
        print("14.history")
        print("15.clear history")
-       print("16. set password")
-       print("27.remove password")
+       print("16.set password")
+       print("17.remove password")
+       print("18.secret files")
+   if command=="secret files":
+      print("Lets you write and view encrypted files.")
    if command=="remove password":
       print("Removes the current password.")
    if command=="set password":
