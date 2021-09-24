@@ -13,3 +13,4 @@ dir [path]
 restart
 create
 rename
+secret files
