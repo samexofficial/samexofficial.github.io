@@ -15,3 +15,4 @@ create
 rename
 secret files
 remove duplicates
+settings
